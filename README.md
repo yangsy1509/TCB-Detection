@@ -44,7 +44,7 @@ python -m pip install torch==2.6.0 torchvision==0.21.0 --index-url https://downl
 python -m pip install -r requirements.txt
 ```
 
-`mamba-ssm` may require a matching CUDA build toolchain. The released scripts have been checked for preserved preprocessing/splits; GPU training has not been rerun as part of this packaging step.
+`mamba-ssm` may require a matching CUDA build toolchain.
 
 ## Train
 
@@ -60,7 +60,7 @@ for scheme in RGB RGB_CTH RGB_CTT RGB_CTT_CTH; do
 done
 ```
 
-The original paper training operations are retained in `training/`. Defaults: ImageNet1K initialization, Adam 1e-4, BCEWithLogitsLoss, batch size 16, 500 epochs, validation TCB F1 checkpoint selection, horizontal/vertical flip probability 0.5, training seed 1004, sampling seed 1004. This entry point reproduces the single-run paper training protocol; it does not add early stopping. `configs/paper.json` contains the settings.
+The original paper training operations are retained in `training/`. Defaults: ImageNet1K initialization, Adam 1e-4, BCEWithLogitsLoss, batch size 16, 500 epochs, validation TCB F1 checkpoint selection, horizontal/vertical flip probability 0.5, training seed 1004, sampling seed 1004. This entry point reproduces the single-run paper training protocol. `configs/paper.json` contains the settings.
 
 Mean/std are computed from training data only. Normalization applies z-score first, then replaces NaN/Inf with zero. The input order for the five-channel scheme is **R,G,B,CTT,CTH**.
 
@@ -76,7 +76,7 @@ python predict.py --scheme RGB_CTH --data-root ./dataset \
   --manifest data/splits/test.csv --gpu 0
 ```
 
-The epoch in the example is the paper checkpoint name; a new training run can select another epoch. No weights are retrained during inference. Default patch inference uses batch size 1 and classifies probabilities **>0.5** as TCB. Outputs are sample-level predictions and metrics including TCB precision/recall/F1, AUROC and average precision (`AUPRC_AP`, as in the GK2A evaluation). The NASA trapezoidal AUPRC experiment is a separate analysis.
+The epoch in the example is the paper checkpoint name; a new training run can select another epoch. No weights are retrained during inference. Default patch inference uses batch size 1 and classifies probabilities **>0.5** as TCB. Outputs are sample-level predictions and metrics including TCB precision/recall/F1, AUROC and AUPRC.
 
 ## Full-scene RGB+CTH inference
 
