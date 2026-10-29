@@ -1,0 +1,92 @@
+{
+  "catalog_samples": 6378,
+  "TCB": 1530,
+  "non_TCB": 4848,
+  "patch_size": [
+    512,
+    512
+  ],
+  "RGB": {
+    "shape": [
+      512,
+      512,
+      3
+    ],
+    "dtype": "float32",
+    "values": "linear radiometric RGB; not display-normalized PNG"
+  },
+  "CTH": {
+    "shape": [
+      512,
+      512
+    ],
+    "dtype": "float32",
+    "missing": "NaN retained"
+  },
+  "CTT": {
+    "shape": [
+      512,
+      512
+    ],
+    "dtype": "float32",
+    "missing": "NaN retained"
+  },
+  "sampling_seed": 1004,
+  "paper_splits": {
+    "train": {
+      "total": 3404,
+      "TCB": 851,
+      "non_TCB": 2553,
+      "years": [
+        2019,
+        2020,
+        2021
+      ]
+    },
+    "val": {
+      "total": 1439,
+      "TCB": 360,
+      "non_TCB": 1079,
+      "years": [
+        2022
+      ]
+    },
+    "test": {
+      "total": 1276,
+      "TCB": 319,
+      "non_TCB": 957,
+      "years": [
+        2023,
+        2024
+      ]
+    }
+  },
+  "catalog_not_selected_for_paper_splits": 259,
+  "normalization": "training-only channel mean/std, then z-score, then NaN/Inf ->0",
+  "channel_order": {
+    "RGB": [
+      "R",
+      "G",
+      "B"
+    ],
+    "RGB_CTH": [
+      "R",
+      "G",
+      "B",
+      "CTH"
+    ],
+    "RGB_CTT": [
+      "R",
+      "G",
+      "B",
+      "CTT"
+    ],
+    "RGB_CTT_CTH": [
+      "R",
+      "G",
+      "B",
+      "CTT",
+      "CTH"
+    ]
+  }
+}

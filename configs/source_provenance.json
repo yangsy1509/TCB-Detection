@@ -1,0 +1,37 @@
+{
+  "training/train_rgb.py": {
+    "original_filename": "MV_EA_512_1km_RGB_trainset_zscore_pretrain.py",
+    "original_sha256": "8818a2311a09d706602c67b4e771f1f63e91766d5027732170660dfe0683c352"
+  },
+  "training/train_rgb_cth.py": {
+    "original_filename": "MV_EA_512_1km_RGB_CTH_trainset_zscore_pretrain.py",
+    "original_sha256": "b4d342f072421a0a71d38a98d5983226a8f351465c4bcdd16690480963daf07d"
+  },
+  "training/train_rgb_ctt.py": {
+    "original_filename": "MV_EA_512_1km_RGB_CTT_trainset_zscore_pretrain.py",
+    "original_sha256": "711305f859905a728ec4919214bb3731733465ab6d1a951e2eacec92c727d85b"
+  },
+  "training/train_rgb_ctt_cth.py": {
+    "original_filename": "MV_EA_512_1km_RGB_CTT_CTH_trainset_zscore_pretrain.py",
+    "original_sha256": "6c410bd97420062b6ab9b8c7a6d88f336e93eeefca6ab0b8936f2c9a093d7546"
+  },
+  "third_party/MambaVision/mambavision/__init__.py": {
+    "original_sha256": "7ffccc446281055b8b52685d0049d1a441e043d9c4aefb267245b95b0791c31b"
+  },
+  "third_party/MambaVision/mambavision/models/__init__.py": {
+    "original_sha256": "a82a1c0c5753e26bd8d8b87b5f14aac8ecfaa4161184375d8b1df0707bb5696e"
+  },
+  "third_party/MambaVision/mambavision/models/mamba_vision.py": {
+    "original_sha256": "726d8eef113a94b2e71657d967abefec95719e47f1791643d2d42229651d9acf"
+  },
+  "third_party/MambaVision/mambavision/models/registry.py": {
+    "original_sha256": "581cb8647a860e6a2570ac84ddcc95236471dbd3c86de333368cd569af12d1b0"
+  },
+  "third_party/MambaVision/LICENSE": {
+    "original_sha256": "ff7cca548d1c47d11897f772346789e7badd8b245cf1b31fc6e73526db443055"
+  },
+  "inference/predict_scenes_rgb_cth.py": {
+    "original_filename": "Scene_inference_2023_2024.py",
+    "original_sha256": "437f48ca79a1e1b16eb0d64cc6725ef2925917df83477c98ea65362cb763244b"
+  }
+}

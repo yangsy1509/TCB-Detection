@@ -1,0 +1,135 @@
+{
+  "repository": "yangsy1509/TCB-Detection",
+  "tag": "v1.0.0",
+  "assets": [
+    {
+      "name": "tcb-dataset-part-001.zip",
+      "bytes": 603340142,
+      "sha256": "4c73cb5b9f0464d90939f3e23659338e56b4f37cc0bf81ca32b42c7c4dd6fedc",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-001.zip"
+    },
+    {
+      "name": "tcb-dataset-part-002.zip",
+      "bytes": 587872271,
+      "sha256": "cdb31aa726815144250cbc72d703fc24737f4c1a99863200eedcac03360e16b3",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-002.zip"
+    },
+    {
+      "name": "tcb-dataset-part-003.zip",
+      "bytes": 582718547,
+      "sha256": "66f63959c01b31a23df7480e869d95d4421514660ea5861445b630d10c8b7fc4",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-003.zip"
+    },
+    {
+      "name": "tcb-dataset-part-004.zip",
+      "bytes": 637923307,
+      "sha256": "5d25c0f568da6ee4afd3233e25a99e06179074d1f4010fdbbbfa300fef9bd317",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-004.zip"
+    },
+    {
+      "name": "tcb-dataset-part-005.zip",
+      "bytes": 594205982,
+      "sha256": "d5c69368cab0036275a6940d596e170db0f67f02202b9d342452241b5e38f73f",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-005.zip"
+    },
+    {
+      "name": "tcb-dataset-part-006.zip",
+      "bytes": 615682045,
+      "sha256": "589b3bdb3545f7f6967e287895cfc60e944b612732fb4ad4993ca0f5ecee6e5d",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-006.zip"
+    },
+    {
+      "name": "tcb-dataset-part-007.zip",
+      "bytes": 597405648,
+      "sha256": "4328a20b88ebf8073ffd27ef7eb4169a95e741a9ee6f306e92449e735a11fd4d",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-007.zip"
+    },
+    {
+      "name": "tcb-dataset-part-008.zip",
+      "bytes": 628446039,
+      "sha256": "f1acc470969d98064c311a11d9e87a75833048b83cddab92bb5c3b58b1275f82",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-008.zip"
+    },
+    {
+      "name": "tcb-dataset-part-009.zip",
+      "bytes": 592506730,
+      "sha256": "844e82d0cbe87af515faee884e3c677f46b37f67ee1227328d7890d1cd765a07",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-009.zip"
+    },
+    {
+      "name": "tcb-dataset-part-010.zip",
+      "bytes": 609753274,
+      "sha256": "5cbc4f9bed8f10436e37a15d78da3671a8a21dea568cd6c88cb6e1d4774bd621",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-010.zip"
+    },
+    {
+      "name": "tcb-dataset-part-011.zip",
+      "bytes": 610795763,
+      "sha256": "c6c9f2e01ef6a120c6a4585c48ed365099341ccf71455ee1e21243138576b458",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-011.zip"
+    },
+    {
+      "name": "tcb-dataset-part-012.zip",
+      "bytes": 603155259,
+      "sha256": "c944f079d9dcc5c027106c11a1fca86a8384cd1e6483fa481e31c38849bf59c1",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-012.zip"
+    },
+    {
+      "name": "tcb-dataset-part-013.zip",
+      "bytes": 606892905,
+      "sha256": "3e5364eec43d6196c0427cee8fc9d34752188878987e09a44463dc6bdc084b08",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-013.zip"
+    },
+    {
+      "name": "tcb-dataset-part-014.zip",
+      "bytes": 596215160,
+      "sha256": "734208c19541e471c83e6c72dea506c5b7e18b3154c03962b21a4a7f4775ac67",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-014.zip"
+    },
+    {
+      "name": "tcb-dataset-part-015.zip",
+      "bytes": 588963782,
+      "sha256": "21d407a19563d47d992625481a51e9d6a0b30f4a4c52f32de3506fe58b435785",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-015.zip"
+    },
+    {
+      "name": "tcb-dataset-part-016.zip",
+      "bytes": 630052393,
+      "sha256": "488ed699acdc4ccd8246f64646f8bbba3f62d22f5dcefd1771a334acba71e82d",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-016.zip"
+    },
+    {
+      "name": "tcb-dataset-part-017.zip",
+      "bytes": 609020905,
+      "sha256": "d43662fc0bb119ad462251748339471d7dbea8578f8a05720fd3f7e867076ed8",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-017.zip"
+    },
+    {
+      "name": "tcb-dataset-part-018.zip",
+      "bytes": 611147857,
+      "sha256": "15b96fd9ca1eb998ef1e8ffc8fe563f493bfc3231cf94f6e350730446e923419",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-018.zip"
+    },
+    {
+      "name": "tcb-dataset-part-019.zip",
+      "bytes": 590975195,
+      "sha256": "8e1fea34a4b91d7bb0cabb3db2f6267e1d800992edca55aa4b4db5fa8b7972bc",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-019.zip"
+    },
+    {
+      "name": "tcb-dataset-part-020.zip",
+      "bytes": 593946213,
+      "sha256": "59cba03cae1096c02eefeb5585e506c69c5d5336d1b4f5202646a689a8ec40ad",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-020.zip"
+    },
+    {
+      "name": "tcb-dataset-part-021.zip",
+      "bytes": 491438463,
+      "sha256": "53687919cee773b8a759fc15bbb24d2d6c71014504384c0561dba8c712ece470",
+      "url": "https://github.com/yangsy1509/TCB-Detection/releases/download/v1.0.0/tcb-dataset-part-021.zip"
+    }
+  ],
+  "npy_files": 19134,
+  "raw_bytes": 33441537792,
+  "status": "Upload the listed assets to this GitHub Release before announcing data availability."
+}
