@@ -94,5 +94,3 @@ Scenes are centrally cropped to 512-pixel tile multiples and classified in batch
 Source hashes and the scope of the public adaptations are recorded in `configs/source_provenance.json`. Paths were parameterized, post-training visualization code was separated, and scoped PyTorch 2.6 checkpoint compatibility was added. Numerical preprocessing, augmentation and the training loops were retained.
 
 MambaVision is by NVIDIA; see https://github.com/NVlabs/MambaVision and the retained `third_party/MambaVision/LICENSE` (NVIDIA Source Code License-NC). See `THIRD_PARTY_NOTICES.md`. The project-specific code and dataset license has not yet been specified by the authors.
-
-For the authors' Linux upload steps, see `UPLOAD_FROM_LINUX_KO.md`.
